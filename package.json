@@ -1,0 +1,16 @@
+{
+  "name": "rakib-tts-api",
+  "version": "1.0.0",
+  "description": "Neural Text-to-Speech API using Microsoft Edge TTS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "edge-tts-universal": "^1.4.0",
+    "express": "^5.1.0"
+  }
+}
